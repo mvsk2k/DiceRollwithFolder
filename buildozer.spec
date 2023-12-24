@@ -4,7 +4,7 @@
 title = MoBDice
 
 # (str) Package name
-package.name = MoBDiceForU
+package.name = MoBDiceForyou
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.test
