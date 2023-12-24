@@ -15,7 +15,7 @@ MDScreen:
         size_hint_y: 0.3
         size_hint_x: 0.3
         pos_hint: {'center_x': 0.5, 'center_y': 0.5 }
-        source: "./dice_1.png"       
+        source: "assets/dice_1.png"       
     MDRaisedButton:
         id: roll_button
         text: 'ROLL'
@@ -38,7 +38,7 @@ class MainApp(MDApp):
 
         diceface = random.choice(["dice_1.png", "dice_2.png", "dice_3.png", "dice_4.png",
                                              "dice_5.png", "dice_6.png"])
-        filename = "./" + diceface
+        filename = "assets/" + diceface
         self.kvs.ids.dice_state.source = filename
 
 ma = MainApp()
