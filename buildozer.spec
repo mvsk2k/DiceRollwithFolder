@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = MoileDice
+title = MobDice
 
 # (str) Package name
-package.name = myapp
+package.name = MobDiceForU
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.test
