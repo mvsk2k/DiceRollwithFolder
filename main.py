@@ -9,7 +9,7 @@ MDScreen:
         anchor_x: 'center' 
         anchor_y: 'top'
         MDTopAppBar:
-            title: "Dice Roller"
+            title: "DiceRoller"
     Image:
         id: dice_state
         size_hint_y: 0.3
