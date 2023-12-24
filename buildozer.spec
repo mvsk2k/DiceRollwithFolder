@@ -1,7 +1,7 @@
 [app]
 
 # (str) Title of your application
-title = MobDice
+title = MobileDice
 
 # (str) Package name
 package.name = MobDiceForU
